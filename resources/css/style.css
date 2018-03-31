@@ -1,4 +1,4 @@
-body{
+body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -7,7 +7,7 @@ body{
 }
 
 /* --------------- HEADER STYLES ------------------------- */
-header{
+header {
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -22,18 +22,38 @@ header img {
   padding-left: 10px;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-nav{
+nav {
   text-align: right;
   flex-grow: 1;
+  padding-right: 10px;
 }
 
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+/* --------------- MAIN CONTENT STYLES ------------------------- */
+.main {
+  padding-top: 69px;
+  opacity: 0.9px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+#mission{
+  height: 700px;
+  background-image: url(../images/mission-background.jpg);
+  padding-top: 70px;
 }
